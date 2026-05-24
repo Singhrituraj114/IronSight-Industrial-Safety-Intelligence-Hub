@@ -1,0 +1,7 @@
+streamlit>=1.32.0
+ultralytics>=8.1.0
+opencv-python>=4.6.0
+plotly>=5.19.0
+pandas>=2.0.0
+numpy>=1.23.0
+pillow>=10.0.0
