@@ -93,4 +93,4 @@ If you prefer not to store weights in the repository, add the `.pt` file to `.gi
 
 ## License
 
-Choose a license (MIT or Apache-2.0) and add the LICENSE file.
+MIT License. See [LICENSE](LICENSE).
