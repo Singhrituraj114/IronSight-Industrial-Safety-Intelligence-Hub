@@ -1,6 +1,6 @@
 # IronSight Industrial Safety Intelligence Hub
 
-Enterprise-grade PPE compliance monitoring powered by **YOLOv8l**. The system detects PPE usage and violations across industrial environments, delivers real-time compliance analytics, and provides professional dashboards for safety teams.
+IronSight is an **AI-powered PPE compliance platform** built on YOLOv8l for industrial safety monitoring. It detects safety gear (helmet, vest, gloves, shoes, harness, mask, etc.) and also identifies **missing PPE** in real-world workplace scenes. The app runs detection on **images, videos, and live webcam feeds**, then turns results into clear compliance insights with KPI cards, charts, and downloadable audit logs. The goal is simple: help safety teams spot violations fast, track compliance trends, and keep hazardous zones safer with real-time AI surveillance.
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
