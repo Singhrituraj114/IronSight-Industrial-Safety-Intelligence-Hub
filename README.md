@@ -23,6 +23,35 @@ The application is a single-file Streamlit product that combines **computer visi
 - **Analytics layer**: Plotly charts and KPI cards summarize compliance health.
 - **Audit layer**: Every inference session is tracked and downloadable as CSV.
 
+### Architecture Diagram
+
+```
+User Inputs (Image / Video / Webcam)
+              |
+              v
+       Streamlit UI Layer
+              |
+              v
+      YOLOv8 Inference Engine
+              |
+              v
+Post-Processing & Compliance Logic
+   |                      |
+   v                      v
+Analytics Dashboard   Audit Log Store
+   |                      |
+   v                      v
+  KPI + Charts       CSV Export
+```
+
+### Core Components
+
+- **Input handlers**: file upload + webcam capture + video decode
+- **Inference core**: YOLOv8 prediction on images/frames
+- **Compliance engine**: converts detections into compliance %
+- **Visualization**: annotated outputs + Plotly charts + KPI cards
+- **Audit logging**: timestamps and exportable inference history
+
 ## How It Works
 
 1. **Input stream** (image, video, or webcam) is ingested in the Streamlit UI.
