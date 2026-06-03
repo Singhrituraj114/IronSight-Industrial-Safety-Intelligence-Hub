@@ -125,12 +125,8 @@ Logs can be exported as CSV for audits or compliance reporting.
 
 ## Screenshots
 
-Add your real UI screenshots to `/assets/` and update or replace the links below:
+<img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/0701a5f7-b3cd-45a3-aaba-cf928c956305" />
 
-![Dashboard](assets/dashboard.png)
-![Image Detection](assets/image-detection.png)
-![Analytics](assets/analytics.png)
-![Dataset Overview](assets/dataset.png)
 
 ## Dataset Overview
 
