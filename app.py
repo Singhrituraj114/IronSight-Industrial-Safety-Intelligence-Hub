@@ -379,8 +379,13 @@ section[data-testid="stSidebar"] [role="radiogroup"] label:hover {
     transform: translateX(4px);
 }
 
-section[data-testid="stSidebar"] [role="radiogroup"] label > div:first-of-type {
+section[data-testid="stSidebar"] [role="radiogroup"] label > div:not(:has(p)),
+section[data-testid="stSidebar"] [role="radiogroup"] label > span:not(:has(p)) {
     display: none;
+}
+
+section[data-testid="stSidebar"] [role="radiogroup"] label > div:has(p) {
+    display: block;
 }
 
 section[data-testid="stSidebar"] [role="radiogroup"] label p {
