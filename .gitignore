@@ -7,7 +7,8 @@ venv/
 env/
 *.log
 .DS_Store
-.streamlit/
+.streamlit/secrets.toml
+detection_history.csv
 .idea/
 .vscode/
 *.mp4
